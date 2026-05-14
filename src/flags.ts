@@ -37,3 +37,11 @@ export const someNewFeature = flag({
 	adapter: vercelAdapter(),
 	identify,
 });
+
+// to test draft flag 
+
+export const darkMOdeToggle = flag({
+	key: "dark-mode-toggle",
+	defaultValue: false,
+	adapter: vercelAdapter(),
+});
